@@ -1,0 +1,338 @@
+html{
+    background-color: #343434;
+}
+.izbornik-vodoravno{
+    height: 40px;
+    background-color: #343434;
+}
+
+.izbornik-vodoravno > div{
+    width: 85%;
+    height: 100%;
+}
+
+.izbornik-lijevo{
+    width:200px;
+}
+
+.nav-block{
+    margin-left: 20%;
+}
+
+.nav-block > form{
+    height: 100%;
+    width: 10%;
+    display: inline-block;
+    background-color: #343434;
+    margin-bottom: 0px;
+}
+.dropdown{
+    width: 10%;
+}
+
+.dropdown > form{
+    height: 100%;
+}
+
+.dropdown-content > form{
+    height: 45%;
+    margin-bottom: 1em;
+}
+
+.dropdown > form{
+    margin-bottom: 0px;
+}
+form > input.input-izbornik{
+    width: 100%;
+    height: 100%;
+    
+}
+.input-izbornik{
+    background-color: #343434;
+    font-family: times-new-roman;
+    color: yellow;
+    font-size: 8px;
+}
+
+body > #content-box-login{
+    width: 70%;
+    height: 400px;
+    margin-left: 12%;
+    background-color: #987654;
+    background-image: url("slike/taxi-842341_960_720.jpg");
+    position: absolute;
+}
+
+#content-box-login > form{
+    height: 40%;
+}
+
+.zab-loz{
+    margin-top: 15px;
+}
+
+#login-box{
+    width: 250px;
+    border: solid 5px;
+    border-color: #85B0AB;
+    margin-left: 60%;
+    background-color: #7C8E8C;
+    margin-top:75px;
+}
+
+.prijavadvakoraka{
+    width: 50%;
+}
+.input-prijavadvakoraka, .prijavadvakoraka{
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.login-mini-block > input{
+    width: 90%;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.login-mini-block > p{
+    width: 75%;
+    height: 5px;
+    font-family: times-new-roman;
+    font-size: 14px;
+    color: yellow;
+    margin-left: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#registration-block{
+    width: 15%;
+    transform: translateX(250%) translateY(15%);
+    border: solid 5px;
+}
+
+.registration-mini-block{
+    height: 100px;
+}
+
+
+.registration-mini-block > input{
+    width: 50%;
+    height: 10px;
+    margin-left: 20%;
+    border: solid 2.5px;
+}
+
+.registration-mini-block > p{
+    width: 75%;
+    height: 5px;
+    font-family: times-new-roman;
+    font-size: 10px;
+    color: yellow;
+    margin-left: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.content{
+    position: flex;
+    width: 40%;
+    transform: translateX(70%) translateY(10%);
+    background-color: #B6D3CE;
+    box-shadow: inset 0px 0px 40px 4px black;
+}
+
+#header{
+    background-color: #0A1816;
+}
+
+.html-podrucja{
+    height:100%;
+}
+
+.body-podrucja{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#map-canvas{
+    height: 100%;
+}
+
+aside.izbornik-lijevo{
+    margin-top: 15px;
+    border: solid gray 5px;
+    vertical-align: top;
+    background-color: #CCCCCC;
+    
+}
+
+aside.izbornik-lijevo > div{
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+
+
+.btn-izbornik{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.btn-izbornik:hover{
+    background-color: #FACF01;
+}
+
+.btn-izbornik > a{
+    text-decoration: none;
+}
+
+.srednji-dio{
+    display: inline-block;
+    width: 100%;
+}
+
+#administrator{
+    display: inline-block;
+    width: 100px;
+}
+
+.moderator-pregled-table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.uponi_tableSection, .kuponi_tableSection{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.pregled-block{
+    width: 90%;
+}
+
+#moderatorIzbornik{
+    display:inline-block;
+    width: 10%;
+}
+
+.content{
+    display: inline-block;
+    transform: translateX(50%);
+    margin-top:100px;
+}
+
+.broj-bodova-info, .forma-kupi-kupon{
+    display: inline-block;
+}
+
+.broj-bodova-info{
+    width: 45%;
+}
+
+.forma-kupi-kupon{
+    width: 29%;
+    
+}
+
+.btn-kupi{
+    width: 50%;
+}
+
+#c-lijevo, #c-desno{
+    border:solid;
+}
+
+#forma-lijevo, #forma-desno{
+    display:inline-block;
+}
+#forma-lijevo{
+    margin-left:40%;
+}
+
+#c-lijevo2, #c-desno2{
+    border:solid;
+}
+
+#forma-lijevo2, #forma-desno2{
+    display:inline-block;
+}
+#forma-lijevo2{
+    margin-left:40%;
+}
+
+.slika-kupon{
+    transform: translateX(50%);
+    margin-top: 15px;
+}
+
+.form-lojalnost > table{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 900px){
+    #moderatorIzbornik{
+        display:block;
+        width: 100%;
+    }
+    .content{
+        display:block;
+    }
+    .nav-block > form{
+        display:block;
+        height: 100%;
+        width: 85%;
+    }
+    
+    .dropdown{
+        display:block;
+        width:85%;
+    }
+    
+    .nav-block > form{
+        display:block;
+    }
+    
+    .dropdown{
+        display:block;
+    }
+    
+    .izbornik-vodoravno{
+        height: 600px;
+    }
+    
+    .izbornik-vodoravno > div{
+        height:13%;
+    }
+    #administrator-izbornik, #moderator-izbornik{
+        width:75%;
+        transform: translateX(20%);
+    }
+    
+    .nav-block{
+        margin-left: 17%;
+    }
+    
+    .content{
+            transform: translateX(0%) translateY(0%);
+            width:100%;
+
+    }
+}
+
+@media screen and (max-width: 1680px){
+    #forma-lijevo, #forma-lijevo2{
+        margin-left: 0;
+    }
+}
+
+
+

@@ -1,0 +1,12 @@
+<?php
+$request_uri = $_SERVER["REQUEST_URI"];
+$uri = strrpos($request_uri, "/");
+$dir = $_SERVER["SERVER_NAME"] . substr($request_uri, 0, $uri + 1);
+if (!isset($_SERVER["HTTPS"]) || strtolower($_SERVER["HTTPS"]) != "on") {
+    $adresa = 'https://' . $dir . 'prijava.php';
+    header("Location: $adresa");
+    exit();
+}
+
+;
+?>

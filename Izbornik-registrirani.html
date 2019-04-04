@@ -1,0 +1,57 @@
+<style>
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        width: 100%;
+        height: 200%;
+        padding: 12px 16px;
+        z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+</style>
+
+<nav class="izbornik-vodoravno">
+    <div class="nav-block">
+        <form class="form-profil">
+            <input style="font-size:11px;" class="input-izbornik" value="Profil" type="submit"/>
+        </form>
+        <form class="form-podrucja" method="post" action="podrucja.php">
+            <input style="font-size:11px;" class="input-izbornik" Value="Područja" type="submit"/>
+        </form>
+        <div class="dropdown">
+            <form class="form-rezervacije" method="post" action="rezervacija.php">
+                <input style="font-size:11px;" class="input-izbornik" value="Rezervacije" type="submit"/>
+            </form>
+            <div class="dropdown-content">
+                <form class="form-rezervacije" method="post" action="korisnik_rezervacije.php">
+                    <input style="font-size:11px;" class="input-izbornik" value="Kreirane rezervacije" type="submit"/>
+                </form>
+                <form class="form-rezervacije" method="post" action="korisnik_odradene_voznje.php">
+                    <input style="font-size:11px;" class="input-izbornik" value="Odradene voznje" type="submit"/>
+                </form>
+            </div>
+        </div>
+        <form class="form-bodovi" method="post" action="korisnik_bodovi.php">
+            <input style="font-size:11px;" class="input-izbornik" value="Bodovi" type="submit"/>
+        </form>
+        <form class="form-kuponi" method="post" action="pregled_kupona.php">
+            <input style="font-size:11px;" class="input-izbornik" value="Kuponi" type="submit"/>
+        </form>
+        <form class="form-kosarica" method="post" action="kosarica.php">
+            <input style="font-size:11px;" class="input-izbornik" value="Kosarica" type="submit"/>
+        </form>
+        <form class="form-odjava" method="post" action="index.php">
+            <input style="font-size:11px;" class="input-izbornik" value="Odjava" type="submit"/>
+        </form>
+    </div>
+</nav>
